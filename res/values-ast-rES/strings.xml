@@ -64,11 +64,6 @@
     <string name="intro_restore_title">Restauración d\'aplicaciones y datos</string>
     <string name="intro_restore_subtitle" product="tablet">Si tienes dalguna copia de seguranza de <xliff:g id="name" example="LineageOS">%s</xliff:g> pa la tableta, pues restaurala equí.</string>
     <string name="intro_restore_subtitle" product="default">Si tienes dalguna copia de seguranza de <xliff:g id="name" example="LineageOS">%s</xliff:g> pal teléfonu, pues restaurala equí.</string>
-    <string name="update_recovery_title">Anovar el recovery de Lineage</string>
-    <string name="update_recovery_description">Anueva\'l recovery de Lineage nel primer arrinque de cada anovamientu.</string>
-    <string name="update_recovery_warning">El recovery anuévase namás que fine la configuración. Si nun lu quies tocar, desactiva esta carauterística.</string>
-    <string name="update_recovery_setting">Anovar el recovery xunto con LineageOS</string>
-    <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="setup_navigation">Navegación</string>
     <string name="navigation_summary">Escueyi\'l métodu de navegación preferíu</string>
     <string name="gesture_navigation">Navegación xestual</string>
