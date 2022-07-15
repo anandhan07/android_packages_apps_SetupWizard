@@ -203,6 +203,10 @@ public class SetupWizardUtils {
         disableComponentSets(context, GET_RECEIVERS | GET_SERVICES);
     }
 
+    public static boolean isBluetoothDisabled() {
+        return SystemProperties.getBoolean("config.disable_bluetooth", false);
+    }
+
     public static boolean isEthernetConnected(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.
                 getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -255,7 +259,7 @@ public class SetupWizardUtils {
     }
 
     public static void disableComponentsForMissingFeatures(Context context) {
-        if (!hasLeanback(context)) {
+        if (!hasLeanback(context) || isBluetoothDisabled()) {
             disableComponent(context, BluetoothSetupActivity.class);
         }
         if (!hasBiometric(context)) {
